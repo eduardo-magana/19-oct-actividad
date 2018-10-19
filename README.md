@@ -1,1 +1,0 @@
-# 19-oct-actividad
