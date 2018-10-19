@@ -1,0 +1,25 @@
+int y1; //Declarar una variable
+int y2;
+int x2;
+int x3;
+int y3;
+
+void setup(){
+	size(500,500);//Una vez
+	y1 = 0;
+	x2 = 0;
+	y2 = 500;
+	x3 = 500;
+	y3 = 500;
+}
+void draw(){
+background(255);//Fondo negro
+line(250,250,250,y1);//Una y otra vez
+	y1++;
+line(x2,y2,250,250);
+	x2++;
+	y2--;
+line(x3,y3,250,250);
+x3--;
+y3--;
+	}
